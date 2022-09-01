@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(204, 195, 195);
+}
+  .center {
+
+      margin: auto;
+      text-align: center;
+      padding-top: 50px;
+  }
+
+  .center01 {
+
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+  @media screen and (max-width:600px) {
+    h1, h2 {
+    font-size: 20px;
+    }
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .button {
+    background-color: rgb(201, 37, 192);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  p {
+    padding-bottom: 5px;
+  }
+
+
+
